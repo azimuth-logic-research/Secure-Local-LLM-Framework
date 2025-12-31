@@ -8,7 +8,7 @@ This repository contains the open-source backend framework used in **OpsGuard**,
 
 ### 📥 Download the App
 To see this framework in action with the full "Cyphié" UI and animation engine, download the compiled commercial build:
-**[Download OpsGuard Pro (Evaluation Edition)]([INSERT_YOUR_ITCH_IO_LINK_HERE](https://azimuth-logic-research.itch.io/opsguard-secure-local-ai))**
+**[Download OpsGuard Pro (Evaluation Edition)](https://azimuth-logic-research.itch.io/opsguard-secure-local-ai)**
 
 ---
 
