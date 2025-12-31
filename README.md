@@ -1,2 +1,38 @@
-# Secure-Local-LLM-Framework
-Nuitka-hardened, Memory-safe Inference Architecture for Local AI.
+## Secure Local LLM Framework (OpsGuard Core)
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+
+**A Local-First, Memory-Safe Inference Architecture for High-Compliance Environments.**
+
+This repository contains the open-source backend framework used in **OpsGuard**, a commercial Governance tool for Shadow AI. It addresses the challenges of deploying secure, offline Large Language Models (LLMs) in environments requiring strict data sovereignty.
+
+### 📥 Download the App
+To see this framework in action with the full "Cyphié" UI and animation engine, download the compiled commercial build:
+**[Download OpsGuard Pro (Evaluation Edition)](INSERT_YOUR_ITCH_IO_LINK_HERE)**
+
+---
+
+### 🚀 Key Technical Contributions
+
+1.  **Dynamic Hardware Abstraction (`engine_loader.py`):**
+    *   Performs a "Pre-Flight Audit" of the host CPU/GPU.
+    *   Dynamically injects AVX2 or CUDA dependencies into the runtime *after* Nuitka compilation.
+
+2.  **Ephemeral Memory Staging (`voice_manager.py`):**
+    *   Implements a RAM-only buffer for voice and document ingestion.
+    *   Ensures sensitive data is streamed to inference without disk serialization (Anti-Forensics).
+
+3.  **Self-Healing Encryption (`encryption_utils.py`):**
+    *   Migrates legacy flat-file keys to the OS System Vault upon startup.
+
+### 🛠️ Developer Usage
+
+1.  Install dependencies: `pip install -r requirements.txt`
+2.  Download a `tinyllama.gguf` model to the root folder.
+3.  Run the reference GUI:
+    ```bash
+    python gui_demo.py
+    ```
+
+### 📄 Research
+Based on the paper: **"Mitigating Data Leakage in High-Compliance Environments"** - *Jamil Alshaer (2025)*.
