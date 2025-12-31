@@ -1,38 +1,21 @@
-# Secure Local LLM Framework (OpsGuard Core)
+MIT license 
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+Copyright (C) 2025 jalsher7-tech
 
-**A Local-First, Memory-Safe Inference Architecture for High-Compliance Environments.**
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "software"), to deal
+in this Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This repository contains the open-source backend framework used in **OpsGuard**, a commercial Governance tool for Shadow AI. It addresses the challenges of deploying secure, offline Large Language Models (LLMs) in environments requiring strict data sovereignty.
+The aboce copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### 📥 Download the App
-To see this framework in action with the full "Cyphié" UI and animation engine, download the compiled commercial build:
-**[Download OpsGuard Pro (Evaluation Edition)](INSERT_YOUR_ITCH_IO_LINK_HERE)**
-
----
-
-### 🚀 Key Technical Contributions
-
-1.  **Dynamic Hardware Abstraction (`engine_loader.py`):**
-    *   Performs a "Pre-Flight Audit" of the host CPU/GPU.
-    *   Dynamically injects AVX2 or CUDA dependencies into the runtime *after* Nuitka compilation.
-
-2.  **Ephemeral Memory Staging (`voice_manager.py`):**
-    *   Implements a RAM-only buffer for voice and document ingestion.
-    *   Ensures sensitive data is streamed to inference without disk serialization (Anti-Forensics).
-
-3.  **Self-Healing Encryption (`encryption_utils.py`):**
-    *   Migrates legacy flat-file keys to the OS System Vault upon startup.
-
-### 🛠️ Developer Usage
-
-1.  Install dependencies: `pip install -r requirements.txt`
-2.  Download a `tinyllama.gguf` model to the root folder.
-3.  Run the reference GUI:
-    ```bash
-    python gui_demo.py
-    ```
-
-### 📄 Research
-Based on the paper: **"Mitigating Data Leakage in High-Compliance Environments"** - *Jamil Alshaer (2025)*.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FINESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIFHT HOLDERS BE LIABLE FOR ANY CALIM, DAMAGES OR OTHER
+LIABILITY, WETHER IN AN ACTION OF CONTRACT, TORN OT OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
