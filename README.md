@@ -27,7 +27,7 @@ To see this framework in action with the full "Cyphié" UI and animation engine,
 
 ### 🛠️ Developer Usage
 
-1.  Install dependencies: `pip install -r requirements.txt`
+1.  Install dependencies: pip install -r requirements.txt
 2.  Download a `tinyllama.gguf` model to the root folder.
 3.  Run the reference GUI:
     ```bash
@@ -36,8 +36,9 @@ To see this framework in action with the full "Cyphié" UI and animation engine,
 ### ⚡ Performance Validation
 
 This framework is optimized for speed on commodity hardware. You can verify the CPU inference performance on your own machine using the included benchmark script. This script uses a streaming token methodology to isolate generation latency.
-    ```bash
-    benchmark.py
-    ```
+
+```bash
+benchmark.py
+```   
 ### 📄 Research
 Based on the paper: **"Mitigating Data Leakage in High-Compliance Environments"** - *Jamil Alshaer (2025)*.
