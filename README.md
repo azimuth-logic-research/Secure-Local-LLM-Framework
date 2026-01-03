@@ -38,7 +38,7 @@ To see this framework in action with the full "Cyphié" UI and animation engine,
 This framework is optimized for speed on commodity hardware. You can verify the CPU inference performance on your own machine using the included benchmark script. This script uses a streaming token methodology to isolate generation latency.
 
 ```bash
-python examples/benchmark.py
+benchmark.py
 ```
 ### 📄 Research
 Based on the paper: **"Mitigating Data Leakage in High-Compliance Environments"** - *Jamil Alshaer (2025)*.
