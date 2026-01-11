@@ -43,5 +43,22 @@ This framework is optimized for speed on commodity hardware. You can verify the 
 ```bash
 benchmark.py
 ```   
-### 📄 Research
-Based on the paper: **"Mitigating Data Leakage in High-Compliance Environments"** - *Jamil Alshaer (2026)*.(Currently under academic review)
+## 📄 Research & Citation
+
+This software is the official implementation of the research framework published on **IEEE TechRxiv**.
+
+**Cite as:**
+> Jamil Alshaer. *Mitigating Data Leakage in High-Compliance Environments: A Governance Framework for Local-LLM Adoption.* TechRxiv. January 10, 2026. DOI: [10.36227/techrxiv.176800912.24304866/v1](https://doi.org/10.36227/techrxiv.176800912.24304866/v1)
+
+**BibTeX:**
+```bibtex
+@article{alshaer2026mitigating,
+  title={Mitigating Data Leakage in High-Compliance Environments: A Governance Framework for Local-LLM Adoption},
+  author={Alshaer, Jamil},
+  journal={TechRxiv},
+  publisher={IEEE},
+  year={2026},
+  month={jan},
+  doi={10.36227/techrxiv.176800912.24304866/v1},
+  url={https://doi.org/10.36227/techrxiv.176800912.24304866/v1}
+}
