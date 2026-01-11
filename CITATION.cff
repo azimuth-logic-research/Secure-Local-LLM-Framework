@@ -1,20 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite the underlying research paper."
 authors:
 - family-names: "Alshaer"
   given-names: "Jamil"
-  affiliation: "Independent Researcher"
-  email: "Azimuth-Logic-Research@proton.me"
-title: "Secure Local LLM Framework (Cyphie)"
+title: "Cyphie: Secure Local AI Framework"
 version: 1.0.0
-date-released: 2026-01-06
-url: "https://github.com/azimuth-logic-research/Secure-Local-LLM-Framework"
+doi: "10.36227/techrxiv.176800912.24304866/v1"
+date-released: 2026-01-10
+url: "https://github.com/Azimuth-Logic-Research/Secure-Local-LLM-Framework"
 preferred-citation:
   type: article
   authors:
   - family-names: "Alshaer"
     given-names: "Jamil"
-    affiliation: "Independent Researcher"
-  title: "Mitigating Data Leakage in High-Compliance Environments A Governance Framework for Local-LLM Adoption"
+  journal: "TechRxiv"
+  publisher: "IEEE"
+  title: "Mitigating Data Leakage in High-Compliance Environments: A Governance Framework for Local-LLM Adoption"
   year: 2026
   month: 1
+  doi: "10.36227/techrxiv.176800912.24304866/v1"
