@@ -81,4 +81,5 @@ This software is the official implementation of the research framework published
   year={2026},
   month={jan},
   doi={10.36227/techrxiv.176800912}
+  url={https://doi.org/10.36227/techrxiv.176800912.24304866/v1}
 }
