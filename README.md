@@ -12,7 +12,12 @@ This implementation supports the research presented in:
 **"Mitigating Data Leakage in High-Compliance Environments: A Governance Framework for Local-LLM Adoption"**
 
 *   **[Read the Full Paper on IEEE TechRxiv](https://doi.org/10.36227/techrxiv.176800912.24304866/v1)**
+## 📦 Product Availability
+While the core framework and underlying GRC logic are available in this repository for academic review and reproducibility, the enterprise-ready, compiled application—**Cyphie Pro**—is maintained as a standalone deployment.
 
+*   **[Explore Cyphie Pro on Itch.io](https://azimuth-logic-research.itch.io/cyphie-secure-local-ai)**
+
+*This provides a pre-compiled, hardened interface for non-technical users in high-compliance sectors.*
 ## 🛡️ Key Architectural Contributions
 1. **Ephemeral Memory Decryption:** Implements a "Read-and-Forget" pipeline where sensitive context (PDFs, ASR streams) exists exclusively in volatile RAM, with active sanitization to prevent post-incident forensic recovery.
 2. **Dynamic Hardware Abstraction Layer (HAL):** Decouples inference engines from the compiled binary. Performs a runtime 'Pre-Flight Audit' to dynamically inject hardware-specific dependencies (AVX2/CUDA), ensuring high performance on heterogeneous hardware.
